@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Just set custom primary and accent color.
+    Looks best with a light theme. see the AndroidManifest
+
+    android:theme="@style/MaterialDrawerTheme.Light.DarkActionBar.TranslucentStatus"
+    -->
+    <color name="colorPrimary">#039be5</color>
+    <color name="colorPrimaryDark">#006db3</color>
+    <color name="colorPrimaryLight">#63ccff</color>
+    <color name="colorAccent">#2196F3</color>
+    <!-- overwrite the selected colors because the primary color is to dark -->
+    <color name="material_drawer_selected_text">#039be5</color>
+    <color name="material_drawer_dark_selected_text">#039be5</color>
+</resources>
